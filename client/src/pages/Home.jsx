@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <AnimatePresence>
       {snap.intro && (
-        <motion.section className='home' {...slideAnimation('left')}>
+        <motion.section className='home bgcolor' {...slideAnimation('left')}>
           <motion.header {...slideAnimation('down')}>
           <div  className={`${snap.ccolor} text-4xl rotate-45 object-contain `}>
           <FcGenericSortingDesc/>
